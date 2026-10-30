@@ -180,3 +180,9 @@
 .education-entry>.education-degree{font:400 14px/1.75 var(--sans);color:var(--ink);margin-top:11px}
 .education-entry>.education-date{font:10px/1.7 var(--mono);letter-spacing:.3px;color:var(--muted);margin-top:9px}
 @media(max-width:650px){.education-heading{gap:12px}.education-heading h3{font-size:19px;letter-spacing:-.25px}.education-heading>.education-logo{width:25px;height:28px;flex-basis:25px}.education-heading>.education-logo img{max-height:28px}.education-heading>.logo-eurecom{width:62px;flex-basis:62px}.education-entry>.education-degree{font-size:13px}.education-entry>.education-date{font-size:9px}}
+
+/* Community organizations lead; school names share the timeline accent. */
+.activity-entry .service-school{font:400 16px/1.5 var(--sans);color:var(--accent);margin:0}
+.activity-entry .service-club{font:500 21px/1.4 var(--sans);color:var(--ink);margin:8px 0 0;letter-spacing:-.2px}
+.activity-entry .service-role{margin-top:8px}
+@media(max-width:560px){.activity-entry .service-school{font-size:14px}.activity-entry .service-club{font-size:18px}}
